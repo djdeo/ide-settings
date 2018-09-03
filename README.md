@@ -15,6 +15,55 @@ VScode and Sublime settings
 }
 ```
 
+
+## VScode shortcut blinding:
+
+```json
+[
+    {
+        "key": "ctrl+shift+oem_1",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        "key": "ctrl+shift+alt+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "-expandLineSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f3",
+        "command": "editor.action.changeAll",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+f2",
+        "command": "-editor.action.changeAll",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+w",
+        "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    }
+]
+```
+
 ## Sublime settting
 
 ```json
