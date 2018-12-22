@@ -1,5 +1,7 @@
 # Web dev 2019
 
+content of [Web Development In 2019 - A Practical Guide](https://www.youtube.com/watch?v=UnTQVlqmDQ0) from [Brad Traversy](https://github.com/bradtraversy)
+
 ## Basic Deployment
 
 - register a domain : Namecheap
