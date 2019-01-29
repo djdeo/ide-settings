@@ -75,3 +75,16 @@ VScode and Sublime settings
     "theme": "Default.sublime-theme"
 }
 ```
+
+## Sublime shortcut
+
+```json
+{
+    "keys": ["alt+z"],
+    "command": "toggle_setting",
+    "args": {
+        "setting": "word_wrap"
+    }
+}
+```
+use `alt+z` to toggle word wrap, like in VScode
