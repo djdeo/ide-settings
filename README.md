@@ -88,3 +88,23 @@ VScode and Sublime settings
 }
 ```
 use `alt+z` to toggle word wrap, like in VScode
+
+## Sublime JavaScript Build (F7)
+
+### Mac
+
+```json
+{
+  "cmd": ["/usr/local/bin/node", "$file"],
+  "selector": "source.js"
+}
+```
+
+### Windows 
+
+```json
+{
+  "cmd": ["C:/Program Files/nodejs/node.exe", "$file"],
+  "selector": "source.js"
+}
+```
