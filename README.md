@@ -91,6 +91,8 @@ use `alt+z` to toggle word wrap, like in VScode
 
 ## Sublime JavaScript Build (F7)
 
+Tools > Build System > New Build System…   and save as `JavaScript.sublime-build`
+
 ### Mac
 
 ```json
