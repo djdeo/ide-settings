@@ -4,14 +4,67 @@ VScode and Sublime settings
 
 ```json
 {
-    "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.colorTheme": "Ayu Mirage",
-    "window.zoomLevel": 1,
-    "editor.fontSize": 16,
-    "editor.lineHeight": 35,
-    "editor.mouseWheelScrollSensitivity": 2.5,
-    "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "editor.suggestSelection": "first",
+  "material-icon-theme.folders.color": "#42a5f5",
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "JetBrains Mono, Operator Mono, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.tabSize": 2,
+  "typescript.format.enable": false,
+  "javascript.validate.enable": false,
+  "[javascript, vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "editor.fontSize": 13,
+  "workbench.colorTheme": "Night Wolf [gray] (No Italics)",
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.localEchoStyle": "dim",
+  "terminal.integrated.fontSize": 13,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.trimTrailingWhitespace": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "editor.formatOnSaveMode": "modifications",
+  "html.format.preserveNewLines": false,
+  "eslint.codeActionsOnSave": true, // 每次保存的时候将代码按eslint格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "prettier.eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
+  "prettier.semi": false, //去掉代码结尾的分号
+  "prettier.singleQuote": true, //使用单引号替代双引号
+  // "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //让函数(名)和后面的括号之间加个空格
+  "vetur.format.defaultFormatter.html": "js-beautify-html", //格式化.vue中html
+  "vetur.format.defaultFormatter.js": "vscode-typescript", //让vue中的js按编辑器自带的ts格式进行格式化
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned" //属性强制折行对齐
+    }
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.inlineHints.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "errorLens.fontFamily": "Operator Mono",
 }
 ```
 
